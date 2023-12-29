@@ -62,7 +62,7 @@ or(carryout,p,q,r);
 endmodule
 ```
 ## Output:
-##  symbol & Truth table:
+## Logic symbol & Truth table:
 ## Truth Table:
 ## Half Adder:
 ![Screenshot 2023-12-29 142255](https://github.com/23002248/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/151701774/dc1097e7-297a-4da3-8b2c-959cd68b1cdd)

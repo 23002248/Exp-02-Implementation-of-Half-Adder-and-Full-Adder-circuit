@@ -9,7 +9,13 @@ To design a half adder and full adder circuit and verify its truth table in Quar
 ### Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
-Theory
+### Procedure
+
+Connect the supply (+5V) to the circuit
+Switch ON the main switch
+If the output is 1, then the led glows.
+
+##Theory
 Adders are digital circuits that carry out addition of numbers.
 
 ### Half Adder
@@ -29,12 +35,7 @@ Sum =A’B’Cin + A’BCin’ + ABCin + AB’Cin’ = A ⊕ B ⊕ Cin Carry = A
  ![image](https://user-images.githubusercontent.com/36288975/163552156-a13e5a56-c638-4110-97d9-8896907c8d25.png)
 
 
-### Procedure
 
-Connect the supply (+5V) to the circuit
-Switch ON the main switch
-If the output is 1, then the led glows.
-### 
 Program:
 
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
@@ -58,23 +59,24 @@ endmodule
 Output:
 Logic symbol & Truth table:
 ## Truth Table:
-Half Adder:
+## Half Adder:
 ![Screenshot 2023-12-29 142255](https://github.com/23002248/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/151701774/dc1097e7-297a-4da3-8b2c-959cd68b1cdd)
-Full Adder:
+## Full Adder:
 :![Screenshot 2023-12-29 142341](https://github.com/23002248/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/151701774/ed76b507-f262-4587-b6f7-9c6a76da07b8)
 
 ## RTL realization
-Half Adder:
+## Half Adder:
 ![Screenshot 2023-12-29 141726](https://github.com/23002248/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/151701774/edceb5e9-4c0d-44cc-8629-82ef0eec5b9b)
-Full Adder:
+## Full Adder:
 ![Screenshot 2023-12-29 141845](https://github.com/23002248/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/151701774/cef4dbed-275d-4d23-86c0-4eaeef5cd25d)
 
 ### TIMING DIAGRAM:
-Half Adder :
+## Half Adder :
 ![Screenshot 2023-12-29 142006](https://github.com/23002248/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/151701774/6f80e955-d704-4e44-9a56-057832577bd2)
-Full Adder:
+## Full Adder:
 ![Screenshot 2023-12-29 142051](https://github.com/23002248/Exp-02-Implementation-of-Half-Adder-and-Full-Adder-circuit/assets/151701774/7bf04267-67f7-4c97-8124-69ad22bc265a)
 
-### TRUTH TABLE 
 
 ### Result:
+Thus the given logic functions are implemented and their operations are verified using verilog programming.
+
